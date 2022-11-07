@@ -3,8 +3,8 @@ import pickle
 import streamlit as st
 
 # Load the Multinomial Naive Bayes model and TFIDF
-classifier = pickle.load(open('/content/drive/MyDrive/Restaurant review prediction /restaurant_review_model.pkl', 'rb'))
-tfidf = pickle.load(open('/content/drive/MyDrive/Restaurant review prediction /tfidf-transform.pkl','rb'))
+classifier = pickle.load(open('restaurant_review_model.pkl', 'rb'))
+tfidf = pickle.load(open('tfidf-transform.pkl','rb'))
 
 import re
 import nltk
@@ -15,7 +15,7 @@ from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
 
-st.title("Restaurant Review Sentiment Analyser")
+st.title("Restaurant Review Sentiment Analysis")
 input_text = st.text_area("Enter Your Review")
 
 if st.button('Predict'):
