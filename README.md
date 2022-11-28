@@ -1,6 +1,6 @@
 Restaurant Review Sentiment Analysis
 
-. 1. I have build a model which predicts the restaurant review as GOOD / BAD based on customer reviews.
+.  1. I have build a model which predicts the restaurant review as GOOD / BAD based on customer reviews.
 
   2. Used various NLP techniques for creating the corpus and text cleaning.
   
@@ -9,4 +9,4 @@ Restaurant Review Sentiment Analysis
   4. I was able to achieve an accuracy of 76.05% using Multinomial Naive Bayes theorem.
 
 Deployed webapp on streamlit using Heroku :   https://restaurant-review-streamlit.herokuapp.com/ 
-Github link :https://github.com/senthillaksh/Restaurant-review-sentiment-analysis
+
