@@ -8,5 +8,5 @@ Restaurant Review Sentiment Analysis
   
   4. I was able to achieve an accuracy of 76.05% using Multinomial Naive Bayes theorem.
 
-Deployed webapp on streamlit using Heroku :
+Deployed webapp using Streamlit on render :
 
